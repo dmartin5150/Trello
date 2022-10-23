@@ -90,7 +90,7 @@ body {
 }
 
 .hotel-view {
-  background-color: orangered;
+  background-color: var(--color-white);
   flex: 1;
   height: 80rem;
 }
@@ -241,6 +241,14 @@ body {
   font-size: 1.2rem;
   text-align: center;
   padding: 2.5rem;
+}
+
+.gallery {
+  display: flex;
+}
+.gallery__photo {
+  width: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
